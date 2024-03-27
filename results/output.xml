@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.9.13 on linux)" generated="20240327 14:17:10.867" rpa="false" schemaversion="4">
+<suite id="s1" name="RobotFrameworkPetProject" source="/home/satyendra/Documents/RobotFramework/RobotFrameworkPetProject">
+<suite id="s1-s1" name="Tests" source="/home/satyendra/Documents/RobotFramework/RobotFrameworkPetProject/Tests">
+<suite id="s1-s1-s1" name="Googlesearch" source="/home/satyendra/Documents/RobotFramework/RobotFrameworkPetProject/Tests/googlesearch">
+<suite id="s1-s1-s1-s1" name="Googlesearch" source="/home/satyendra/Documents/RobotFramework/RobotFrameworkPetProject/Tests/googlesearch/googlesearch.robot">
+<test id="s1-s1-s1-s1-t1" name="This is sample test case" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>http://www.google.com</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20240327 14:17:11.476" level="INFO">Opening browser 'chrome' to base url 'http://www.google.com'.</msg>
+<status status="PASS" starttime="20240327 14:17:11.460" endtime="20240327 14:17:19.370"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20240327 14:17:19.379" endtime="20240327 14:17:19.461"/>
+</kw>
+<doc>google Test</doc>
+<tag>regression</tag>
+<status status="PASS" starttime="20240327 14:17:11.455" endtime="20240327 14:17:19.462"/>
+</test>
+<status status="PASS" starttime="20240327 14:17:10.972" endtime="20240327 14:17:19.465"/>
+</suite>
+<status status="PASS" starttime="20240327 14:17:10.965" endtime="20240327 14:17:19.520"/>
+</suite>
+<status status="PASS" starttime="20240327 14:17:10.950" endtime="20240327 14:17:19.550"/>
+</suite>
+<status status="PASS" starttime="20240327 14:17:10.881" endtime="20240327 14:17:19.572"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">regression</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="RobotFrameworkPetProject">RobotFrameworkPetProject</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Tests">RobotFrameworkPetProject.Tests</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Googlesearch">RobotFrameworkPetProject.Tests.Googlesearch</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Googlesearch">RobotFrameworkPetProject.Tests.Googlesearch.Googlesearch</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
